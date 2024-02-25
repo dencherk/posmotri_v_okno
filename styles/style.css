@@ -69,7 +69,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 .result__video{
   width: 100%;
@@ -81,7 +81,7 @@ ol {
   gap: 30px;
 }
 .content__list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .content__video-card {
   display: grid;
@@ -176,10 +176,6 @@ ol {
   white-space: nowrap;
 } 
 .search-form__label {
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   cursor: pointer;
   gap: 4px;
 }
@@ -192,7 +188,8 @@ ol {
   flex-direction: row;
   gap: 15px;
   align-items: center;
-  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-bottom: 4px;
 }
 .search-form__label-text {
   color: #fff;
@@ -200,10 +197,9 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
-
 }
 .search-form__pseudo-checkbox{
-  margin-top: 1px;
+  margin-bottom: 1px;
   display: inline-block;
   width: 19px;
   height: 19px;
@@ -238,7 +234,8 @@ ol {
   align-items: flex-end  ;
   gap: 10px;
   border: 1px solid #fff;
-  margin-top: 20px;
+  margin-top: 21px;
+  margin-left: 2px;
 }
 .content__details{
   display: flex;
