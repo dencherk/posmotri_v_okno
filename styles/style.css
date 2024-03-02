@@ -132,7 +132,6 @@ ol {
   font-weight: 700;
   line-height: 70.5px;
   text-transform: uppercase;
-  ;
 }
 .content__card-link {
   text-decoration: none;
@@ -217,7 +216,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  height: 34px;
+  max-height: 34px;
   text-align: center;
   border: 1px solid #fff;
   cursor: pointer;
@@ -225,8 +224,7 @@ ol {
 .search-form__submit-button {
   display: flex;
   flex-shrink: 0;
-  width: 194px;
-  height: 34px;
+  padding: 16px 73px;
   justify-content: center;
   align-items: center;
   align-self: flex-end;
@@ -242,8 +240,8 @@ ol {
   align-items: center;
   gap: 10px;
 }
-input[type="checkbox"]:active + span::after, 
-input[type="checkbox"]:checked + span::after {
+.search-form__checkbox[type="checkbox"]:active + span::after, 
+.search-form__checkbox[type="checkbox"]:checked + span::after {
   content: '';
   display: block;
   background: #fff;
@@ -264,7 +262,7 @@ input[type="checkbox"]:checked + span::after {
   outline: none;
   background-color: #545050;
 }
-button:focus {
+.button:focus {
   outline: none;
 }
 .button:focus-visible {
