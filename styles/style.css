@@ -45,7 +45,6 @@ ol {
 .content {
   display:flex;
   gap:30px;
-  padding: 133px 30px;
   justify-content: center;
   align-items: flex-end;
   width: 1200px;
@@ -234,7 +233,7 @@ ol {
 .more-button {
   display: flex;
   flex-shrink: 0;
-  width: 399px;
+  min-width: 398px;
   min-height: 34px;
   justify-content: center;
   align-items: center;
